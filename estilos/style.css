@@ -39,7 +39,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
     transition: width .3s, height .3s; /* animação de transição */
-    transition-timing-function:; /*suavisa a animação com o "ease"*/
+    transition-timing-function:none; /*suavisa a animação com o "ease"*/
 }
 
 section#login > div#imagem {
@@ -52,4 +52,13 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+} 
+
+div#forumlario > p {
+    font-size: 0.8em;
 }
